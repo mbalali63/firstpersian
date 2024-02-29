@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Iransans';
+    src: url('./../build/fonts/IranSans_1.woff') format('woff');
+}
+@font-face {
+    font-family: 'Cordoba';
+    src: url('./../build/fonts/Cordoba_1.woff') format('woff');
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.border-test{
+    @apply border-4 border-red-500;
+}
+
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}

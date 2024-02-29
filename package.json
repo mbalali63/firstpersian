@@ -1,0 +1,15 @@
+{
+  "name": "firstpersian",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/style.css --watch"
+  },
+  "keywords": [],
+  "author": "Mahdi Balali",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
